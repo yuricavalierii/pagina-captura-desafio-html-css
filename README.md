@@ -1,2 +1,3 @@
-# pagina-captura-desafio-html-css
- pagina de captura 
+Aqui um exemplo pratico de uma pagina de captura, feita com as orientções do curso Programador BR no qual estou estudando.
+
+Nesse projeto estou usando apenas HTML e CSS o momento. 
