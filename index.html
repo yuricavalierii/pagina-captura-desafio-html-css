@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <div class="container-header">
-        <header>
-            <h1 class="titulo"> PARTICIPE DO IMERSÃO QUE VAI MUDAR A SUA VIDA.</h1>
-        </header>
-    </div>
+    <header class="container-header">
+        <div>
+            <h1> PARTICIPE DO IMERSÃO QUE VAI MUDAR A SUA VIDA.</h1>
+        </div>
+    </header>
 
+    
     <section>
         <div class="container-form">
             <h2 class="text-container"> GARANTA SEU LUGAR NA IMERSÃO DO MAIOR ESPECIALISTA EM DESENVOLVIMENTO WEB DA
@@ -27,7 +28,7 @@
             <!-- O formulario nao vai funcionar porque é apenas um exemplo pratico do projeto-->
             <form>
                 <input type="text" name="name" placeholder="Nome">
-                <input type="text" name="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email">
                 <select name="place">
                     <option value="rj"> Rio de Janeiro </option>
                     <option value="sp"> São Paulo </option>
@@ -40,9 +41,11 @@
     </section>
 
 
-    <footer>
+    <footer class="conteiner-footer">
+        <div class="caixa-foto">
             <img class="foto" src="./img/fotofrente.jpeg">
-            <div class="texto">
+        </div>
+            <div class="caixa-texto">
                 <h3> O Palestrante</h3>
                 <p> Fulano é conhecido por dar palestras que abalam a estrutura da Programção tradicional. Prepare-se
                     para sair do evento com uma nova visão do que é possivel ser feito para o seus códigos decolarem.
@@ -51,8 +54,6 @@
                     ultimos 7 Premios do DEVWORLD. </p>
             </div>
     </footer>
-
- 
 
 
 </body>

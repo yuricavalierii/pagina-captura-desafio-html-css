@@ -9,30 +9,29 @@ body {
 
 /* header */
 
-header {
-    background-color: rgb(191, 191, 191);
-    color: white;
-    text-align: center;
-    padding: 8px;
-    font: bold;
-    border-radius: 5px;
-}
-
 .container-header {
     max-width: 1000px;
     margin: auto;
+    background-color: rgb(191, 191, 191);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 /* section */
 
 section {
+    max-width: 1000px;
+    margin: auto;
     padding: 20px;
     background-image: url(./img/people.jpg);
     background-size: cover;
     overflow: hidden;
-    background-repeat: no-repeat;
-    max-width: 1000px;
-    margin: auto;
+    background-repeat: no-repeat; 
+    box-sizing: border-box;
 }
 
 .container-form {
@@ -78,31 +77,37 @@ select {
 
 /* footer */
 
-footer {
+.conteiner-footer {
     max-width: 1000px;
     margin: auto;
     padding: 40px;
     background-color: rgb(191, 191, 191);
     text-align: center;
+    box-sizing: border-box;
 }
+
+.caixa-foto {
+    display: inline-block;
+}
+
 
 .foto {
     width: 230px;
     border-radius: 10px;
 }
 
-.texto {
+.caixa-texto {
     display: inline-block;
     width: 300px;
     text-align: left;
     margin-left: 30px;
 }
 
-.texto h3, p{
+.caixa-texto h3, p{
     margin-bottom: 10px;
 }
 
-.texto h3 {
+.caixa-texto h3 {
     font-size: 30px;
 }
 
@@ -113,29 +118,22 @@ footer {
         float: none;
         margin: auto;
     }
-
-    .texto {
-        text-align: center;
-    }
-
-    .texto h3 {
-        margin-top: 15px;
-    }
 }
 
-@media screen and ( max-width:410px) {
-    
-    .texto {
-        margin: auto;
-       
+@media screen and ( max-width: 644px) {
+        
+        .caixa-texto {
+            padding-top: 20px;
     }
-    
+
 }
 
-@media screen and ( max-width:350px) {
-    
-    .texto {
-        width: 100%;
-    }
-    
+@media screen and ( max-width: 375px) {
+        
+    .caixa-texto {
+        padding-top: 20px;
+        width: 230px;
+        margin: 0;
+}
+
 }
